@@ -1,0 +1,82 @@
+
+body, h1, h2, h3, p, ul, li, a, form, label, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+ 
+  .login-title{
+    font-size: 24px;
+    text-align: center;
+  }
+
+  
+  label ,h4{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .login-title a {
+    text-decoration: none;
+    color: 007bff;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+ 
+  button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #022873; 
+  
+
+ 
+  hr {
+    margin: 15px 0;
+  }
+
+
+  }
